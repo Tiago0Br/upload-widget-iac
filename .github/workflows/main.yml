@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies
         id: install-dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Configure AWS credentials
         id: configure-aws
