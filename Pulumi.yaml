@@ -1,0 +1,10 @@
+name: widget-app-iac
+description: IAC projeto Widget App
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
